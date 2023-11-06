@@ -1,5 +1,5 @@
 # Go library for structured concurrency
-[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/ridge/parallel)
+[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/dottedmag/parallel)
 
 [Structured concurrency](https://en.wikipedia.org/wiki/Structured_concurrency)
 helps reasoning about the behaviour of parallel programs. `parallel` implements
@@ -28,7 +28,7 @@ structured concurrency for Go.
 Runs initializaiton within `parallel.Run()`, and then waits until context is
 canceled, or one of spawned tasks finishes. Panics in goroutines are captured.
 
-See the [documentation](https://pkg.go.dev/github.com/ridge/parallel) for
+See the [documentation](https://pkg.go.dev/github.com/dottedmag/parallel) for
 additional features:
 - subprocess groups without inversion of control
 - tasks that may exit and keep the group running

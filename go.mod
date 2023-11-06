@@ -1,4 +1,4 @@
-module github.com/ridge/parallel
+module github.com/dottedmag/parallel
 
 go 1.16
 
